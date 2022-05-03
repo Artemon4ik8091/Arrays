@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 void main()
@@ -10,10 +10,10 @@ void main()
 	int minRand, maxRand;
 	do
 	{
-		cout << "Введите минимальное случайное число: "; cin >> minRand;
-		cout << "Введите максимальное случайное число: "; cin >> maxRand;
-		if (minRand >= maxRand)cout << "Error: Что то пошло не так." << endl;
-	} while (minRand>=maxRand);
+		cout << "Р’РІРµРґРёС‚Рµ РјРёРЅРёРјР°Р»СЊРЅРѕРµ СЃР»СѓС‡Р°Р№РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> minRand;
+		cout << "Р’РІРµРґРёС‚Рµ РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ СЃР»СѓС‡Р°Р№РЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> maxRand;
+		if (minRand >= maxRand)cout << "Error: Р§С‚Рѕ С‚Рѕ РїРѕС€Р»Рѕ РЅРµ С‚Р°Рє." << endl;
+	} while (minRand >= maxRand);
 
 	/*if (minRand > maxRand)
 	{
@@ -28,14 +28,14 @@ void main()
 		//0 ... 32 767 (RAND_MAX)
 	}
 
-	//Вывод массива на экран:
+	//Р’С‹РІРѕРґ РјР°СЃСЃРёРІР° РЅР° СЌРєСЂР°РЅ:
 	for (int i = 0; i < SIZE; i++)
 	{
 		cout << arr[i] << "\t";
 	}
 	cout << endl;
 
-	//Вывод массива на экран в обратном порядке:
+	//Р’С‹РІРѕРґ РјР°СЃСЃРёРІР° РЅР° СЌРєСЂР°РЅ РІ РѕР±СЂР°С‚РЅРѕРј РїРѕСЂСЏРґРєРµ:
 	for (int i = SIZE - 1; i >= 0; i--)
 	{
 		cout << arr[i] << "\t";
@@ -43,11 +43,11 @@ void main()
 	cout << endl;
 
 
-	/*cout << "Первое число: "; cin >> arr[0];
-	cout << "Второе число: "; cin >> arr[1];
-	cout << "Третье число: "; cin >> arr[2];
-	cout << "Четвёртое число: "; cin >> arr[3];
-	cout << "Пятое число: "; cin >> arr[4];
+	/*cout << "РџРµСЂРІРѕРµ С‡РёСЃР»Рѕ: "; cin >> arr[0];
+	cout << "Р’С‚РѕСЂРѕРµ С‡РёСЃР»Рѕ: "; cin >> arr[1];
+	cout << "РўСЂРµС‚СЊРµ С‡РёСЃР»Рѕ: "; cin >> arr[2];
+	cout << "Р§РµС‚РІС‘СЂС‚РѕРµ С‡РёСЃР»Рѕ: "; cin >> arr[3];
+	cout << "РџСЏС‚РѕРµ С‡РёСЃР»Рѕ: "; cin >> arr[4];
 	cout << arr[0] << endl;
 	cout << arr[1] << endl;
 	cout << arr[2] << endl;
@@ -61,12 +61,12 @@ void main()
 	cout << arr[0] << endl;
 	cout << endl;
 	number = arr[0] + arr[1] + arr[2] + arr[3] + arr[4];
-	cout << "Сумма чисел: ";
+	cout << "РЎСѓРјРјР° С‡РёСЃРµР»: ";
 	cout << number << endl;
 	int average = number / 5;
-	cout << "Среднее арифметическое: ";
+	cout << "РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ: ";
 	cout << average;*/
-	//Сортировка массива
+	//РЎРѕСЂС‚РёСЂРѕРІРєР° РјР°СЃСЃРёРІР°
 	for (int i = 0; i < SIZE; i++)
 	{
 		for (int j = i + 1; j < SIZE; j++)
